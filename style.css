@@ -1,0 +1,84 @@
+body {
+  font-family: "Poppins", sans-serif;
+  min-width: max-content;
+  padding: 0 300px;
+}
+
+#title,
+#description {
+  text-align: center;
+}
+
+#description {
+  font-style: italic;
+  font-weight: lighter;
+}
+
+form {
+  background-color: #1b1b32;
+  color: white;
+  border-radius: 5px;
+  border: none;
+  padding: 40px;
+  /* margin: 30px 300px; */
+}
+
+input,
+select,
+button {
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+#dropdown,
+#feature {
+  background-color: white;
+}
+
+p {
+  margin: 0;
+}
+
+.selection input {
+  display: inline;
+  width: auto;
+}
+
+label {
+  display: block;
+}
+
+textarea {
+  height: 100px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+input,
+textarea,
+select,
+button {
+  font-family: "Poppins", sans-serif;
+}
+
+button {
+  background-color: green;
+  color: white;
+}
+
+input,
+label,
+p,
+select,
+textarea {
+  margin-bottom: 10px;
+}
+
+div,
+textarea {
+  margin-bottom: 20px;
+}
